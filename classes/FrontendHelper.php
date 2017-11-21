@@ -40,7 +40,7 @@ class FrontendHelper extends \Contao\Frontend
     {
       if ($strValue = \Input::get($strParam))
       {
-        $objSession->set($strParam, $strValue);
+        $objSession->set("powertools_$strParam", $strValue);
       }
     }
   }
@@ -60,7 +60,7 @@ class FrontendHelper extends \Contao\Frontend
     }
 
     $objSession = \Session::getInstance();
-    $strValue = $objSession->get($arrSplit[1]);
+    $strValue = $objSession->get("powertools_$arrSplit[1]");
 
     return $strValue;
   }
