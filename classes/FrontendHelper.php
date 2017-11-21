@@ -46,7 +46,7 @@ class FrontendHelper extends \Contao\Frontend
   }
 
   /**
-   * Return the value of the session stored params
+   * Return the value of the session stored param
    *
    * @param string $strInsertTag
    */
@@ -54,7 +54,7 @@ class FrontendHelper extends \Contao\Frontend
   {
     $arrSplit = explode('::', $strInsertTag);
 
-    if ($arrSplit[0] != 'url_param' && !in_array($arrSplit[1], self::$arrValidParams))
+    if ($arrSplit[0] != 'powertools_url_param' && !in_array($arrSplit[1], self::$arrValidParams))
     {
       return false;
     }
