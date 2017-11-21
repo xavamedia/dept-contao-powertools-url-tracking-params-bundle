@@ -50,7 +50,7 @@ class FrontendHelper extends \Contao\Frontend
    *
    * @param string $strInsertTag
    */
-  public static function replaceInsertTags($strInsertTag)
+  public static function replaceInsertTags($strInsertTag, $blnCache = false)
   {
     $arrSplit = explode('::', $strInsertTag);
 
