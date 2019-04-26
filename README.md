@@ -1,4 +1,4 @@
-# dept-contao-powertools-url-params-bundle
+# dept-contao-powertools-url-tracking-params-bundle
 
 This Contao bundle stores url tracking params into the user session and provides the values via insert tags.
 
