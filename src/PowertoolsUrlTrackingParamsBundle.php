@@ -11,10 +11,10 @@
  * @license LGPL
  */
 
-namespace Dept\PowertoolsUrlTrackingParamskBundle;
+namespace Dept\PowertoolsUrlTrackingParamsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DeptPowertoolsUrlTrackingParamskBundle extends Bundle
+class DeptPowertoolsUrlTrackingParamsBundle extends Bundle
 {
 }

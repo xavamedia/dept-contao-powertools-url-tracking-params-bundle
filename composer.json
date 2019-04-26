@@ -20,9 +20,9 @@
         }
     },
     "extra": {
-        "contao-manager-plugin": "Dept\\PowertoolsUrlTrackingParamskBundle\\ContaoManagerPlugin"
+        "contao-manager-plugin": "Dept\\PowertoolsUrlTrackingParamsBundle\\ContaoManagerPlugin"
     },
     "replace": {
-        "contao-legacy/propstack-bundle": "self.version"
+        "contao-legacy/powertools-url-tracking-params-bundle": "self.version"
     }
 }
