@@ -1,18 +1,17 @@
 <?php
 
 /**
- * contao-powertools-url-params extension for Contao Open Source CMS
+ * Dept Contao Powertools Url Tracking Params Bundle for Contao Open Source CMS
  *
- * Copyright (C) 2017 XAVA Media GmbH
+ * Copyright (C) 2019 Dept
  *
- * @package contao-powertools-url-params
- * @author  XAVA Media GmbH <https://xavamedia.com>
- * @author  Jannis Ritterspach <ritterspach@xavamedia.com>
+ * @package dept-contao-powertools-url-tracking-params-bundle
+ * @author  Dept <https://www.deptagency.com>
+ * @author  Jannis Ritterspach <jannis.ritterspach@deptagency.com>
  * @license LGPL
  */
 
-
-namespace Powertools\UrlParams;
+namespace Dept\ContaoPowertoolsUrlTrackingParams;
 
 class FrontendHelper extends \Contao\Frontend
 {
