@@ -5,16 +5,16 @@
  *
  * Copyright (C) 2019 Dept
  *
- * @package dept-contao-powertools-url-tracking-params-bundle
+ * @package dept-powertools-url-tracking-params-bundle
  * @author  Dept <https://www.deptagency.com>
  * @author  Jannis Ritterspach <jannis.ritterspach@deptagency.com>
  * @license LGPL
  */
 
-namespace Dept\ContaoPowertoolsUrlTrackingParamskBundle;
+namespace Dept\PowertoolsUrlTrackingParamskBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DeptContaoPowertoolsUrlTrackingParamskBundle extends Bundle
+class DeptPowertoolsUrlTrackingParamskBundle extends Bundle
 {
 }

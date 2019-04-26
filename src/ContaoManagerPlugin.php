@@ -5,13 +5,13 @@
  *
  * Copyright (C) 2019 Dept
  *
- * @package dept-contao-powertools-url-tracking-params-bundle
+ * @package dept-powertools-url-tracking-params-bundle
  * @author  Dept <https://www.deptagency.com>
  * @author  Jannis Ritterspach <jannis.ritterspach@deptagency.com>
  * @license LGPL
  */
 
-namespace Dept\ContaoPowertoolsUrlTrackingParams;
+namespace Dept\PowertoolsUrlTrackingParams;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -26,9 +26,9 @@ class ContaoManagerPlugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(DeptContaoPowertoolsUrlTrackingParamsBundle::class)
+            BundleConfig::create(DeptPowertoolsUrlTrackingParamsBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class])
-                ->setReplace(['dept-contao-powertools-url-tracking-params-bundle']),
+                ->setReplace(['dept-powertools-url-tracking-params-bundle']),
         ];
     }
 

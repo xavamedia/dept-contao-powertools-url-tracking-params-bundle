@@ -1,6 +1,6 @@
 {
-    "name": "dept-contao-powertools-url-tracking-params-bundle",
-    "description": "Dept Contao Powertools Url Tracking Params Bundle",
+    "name": "dept/powertools-url-tracking-params-bundle",
+    "description": "Dept Powertools Url Tracking Params Bundle",
     "type": "contao-bundle",
     "authors": [{
         "name": "Jannis Ritterspach",
@@ -16,11 +16,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Dept\\ContaoPowertoolsUrlTrackingParamsBundle\\": "src/"
+            "Dept\\PowertoolsUrlTrackingParamsBundle\\": "src/"
         }
     },
     "extra": {
-        "contao-manager-plugin": "Dept\\ContaoPowertoolsUrlTrackingParamskBundle\\ContaoManagerPlugin"
+        "contao-manager-plugin": "Dept\\PowertoolsUrlTrackingParamskBundle\\ContaoManagerPlugin"
     },
     "replace": {
         "contao-legacy/propstack-bundle": "self.version"
