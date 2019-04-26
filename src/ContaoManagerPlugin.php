@@ -11,7 +11,7 @@
  * @license LGPL
  */
 
-namespace Dept\PowertoolsUrlTrackingParams;
+namespace Dept\PowertoolsUrlTrackingParamsBundle;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
