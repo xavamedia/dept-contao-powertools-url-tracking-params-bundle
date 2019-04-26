@@ -1,4 +1,4 @@
-# contao-powertools-url-params
+# dept-contao-powertools-url-params-bundle
 
 This Contao extension stores url tracking params into the user session and provides the values via insert tags.
 
