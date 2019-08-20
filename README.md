@@ -12,6 +12,8 @@ The following params will be stored in the user session:
 * utm_term
 * utm_content
 * gclid
+* fbclid
+* mscklid
 
 ## Example usage
 
@@ -24,4 +26,6 @@ Use insert tags to get the values of the session stored url params:
 {{powertools_url_param::utm_term}}
 {{powertools_url_param::utm_content}}
 {{powertools_url_param::gclid}}
+{{powertools_url_param::fbclid}}
+{{powertools_url_param::mscklid}}
 ```

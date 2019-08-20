@@ -25,7 +25,9 @@ class FrontendHelper extends \Contao\Frontend
     'utm_campaign',
     'utm_term',
     'utm_content',
-    'gclid'
+    'gclid',
+    'fbclid',
+    'mscklid'
   ];
 
   /**
@@ -49,7 +51,7 @@ class FrontendHelper extends \Contao\Frontend
    *
    * @param string $strInsertTag
    */
-  public static function replaceInsertTags($strInsertTag, $blnCache = false)
+  public static function replaceInsertTags($strInsertTag, $blnCache = true)
   {
     $arrSplit = explode('::', $strInsertTag);
 
