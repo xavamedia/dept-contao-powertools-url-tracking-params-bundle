@@ -1,5 +1,5 @@
 {
-    "name": "dept/powertools-url-tracking-params-bundle",
+    "name": "dept/contao-powertools-url-tracking-params-bundle",
     "description": "Dept Powertools Url Tracking Params Bundle",
     "type": "contao-bundle",
     "authors": [{
@@ -17,7 +17,16 @@
     "autoload": {
         "psr-4": {
             "Dept\\PowertoolsUrlTrackingParamsBundle\\": "src/"
-        }
+        },
+        "classmap": [
+            "src/Resources/contao/"
+        ],
+        "exclude-from-classmap": [ 
+            "src/Resources/contao/config/",
+            "src/Resources/contao/dca/",
+            "src/Resources/contao/languages/",
+            "src/Resources/contao/templates/"
+        ]
     },
     "extra": {
         "contao-manager-plugin": "Dept\\PowertoolsUrlTrackingParamsBundle\\ContaoManagerPlugin"
